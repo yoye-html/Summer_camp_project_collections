@@ -33,7 +33,7 @@ This repository unifies three production-grade engineering systems built across 
 
 | # | Project Name | Domain | Core Technologies | Directory |
 |---|---|---|---|---|
-| **01** | **[Laveran (Dagu)](#project-01-laveran-dagu--malaria-field-screening-system)** | Computer Vision & Edge MLOps | PyTorch, ONNX INT8, FastAPI, OpenCV, Docker | [`./01-malaria-screening/`](./01-malaria-screening/) |
+| **01** | **[Laveran (Dagu)] Link: https://summer-camp-project-collections.onrender.com (#project-01-laveran-dagu--malaria-field-screening-system)** | Computer Vision & Edge MLOps | PyTorch, ONNX INT8, FastAPI, OpenCV, Docker | [`./01-malaria-screening/`](./01-malaria-screening/) |
 | **02** | **[Addis Ababa Ride-Hailing Telemetry](#project-02-addis-ababa-ride-hailing-telemetry--real-time-analytics-pipeline)** | Distributed Systems & Big Data | Apache Kafka, Python, HDFS, Stream Analytics | [`./02-telemetry-pipeline/`](./02-telemetry-pipeline/) |
 | **03** | **[DHRS-ET Decentralized EHR](#project-03-dhrs-et-decentralized-health-record-system-ethiopia)** | Blockchain & Cryptographic Systems | Hyperledger Besu (QBFT), Solidity, React 19, Ethers.js | [`./03-dhrs-blockchain/`](./03-dhrs-blockchain/) |
 
