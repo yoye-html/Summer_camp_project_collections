@@ -1,0 +1,14 @@
+data/
+models/*.pt
+models/*.onnx
+!models/dagu_int8.onnx
+mlruns/
+logs/
+__pycache__/
+.venv/
+.env
+*.pyc
+*.zip
+annotated.png
+*.egg-info/
+.pytest_cache/

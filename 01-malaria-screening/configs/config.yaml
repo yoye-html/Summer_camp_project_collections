@@ -1,0 +1,44 @@
+# Dagu: single source of configuration. Change values here, not in code.
+data:
+  root: data/cell_images          # contains Parasitized/ and Uninfected/
+  manifest: data/manifests/manifest.csv
+  img_size: 128
+  seed: 42
+  cache_dir: data/cache           # resized uint8 array built by scripts/cache_dataset.py
+  val_frac: 0.15
+  test_frac: 0.15
+train:
+  pretrained: true                # set false only for offline smoke tests
+  batch_size: 64
+  epochs_head: 3                  # phase 1: train the new final layer only
+  epochs_finetune: 8              # phase 2: unfreeze, small learning rate
+  lr_head: 0.001
+  lr_finetune: 0.0001
+  weight_decay: 0.0001
+  num_workers: 2                  # on Colab check os.cpu_count() first
+  amp: true                       # mixed precision on GPU
+  patience: 3                     # early stopping (fine-tune phase)
+  debug_fraction: null            # e.g. 0.1 trains on 10% of train images to test the pipeline
+  out_dir: models
+  mlflow_experiment: dagu-cell-classifier
+eval:
+  target_sensitivity: 0.95        # threshold is chosen on VALIDATION data only
+  bootstrap: 1000
+  report_dir: reports
+quality:                          # starting values: calibrate on your own phone images
+  min_blur_var: 60.0
+  min_brightness: 60
+  max_brightness: 220
+  min_contrast: 15
+field:
+  cell_area_px: [400, 6000]       # depends on magnification and camera resolution
+  min_cells: 20
+  min_fields_per_slide: 20
+  slide_min_positive_cells: 3     # PLACEHOLDER: tune on validation slides
+serve:
+  model_path: models/dagu_int8.onnx
+  threshold_path: models/threshold.json
+  max_upload_mb: 5
+  max_side_px: 4000
+  rate_limit_per_min: 30
+  log_path: logs/predictions.jsonl

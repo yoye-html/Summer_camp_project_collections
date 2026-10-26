@@ -1,0 +1,9 @@
+numpy
+pillow
+opencv-python-headless
+pyyaml
+onnxruntime
+fastapi
+uvicorn
+python-multipart
+aiofiles

@@ -1,0 +1,64 @@
+# Operating System
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE & Editor configs
+.vscode/
+.idea/
+
+# Python & Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node.js & Web build outputs
+node_modules/
+dist/
+build/
+.next/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Blockchain / Hardhat / Foundry
+cache/
+artifacts/
+out/
+typechain/
+typechain-types/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Logs & Tracking
+logs/
+*.log
+mlruns/
+
+# Large Datasets & Model Weights
+data/
+*.zip
+*.tar.gz
+*.npy
+*.npz
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*_prev.onnx
+!01-malaria-screening/models/dagu_int8.onnx
+!models/dagu_int8.onnx
+
+# Temporary image outputs
+annotated.png

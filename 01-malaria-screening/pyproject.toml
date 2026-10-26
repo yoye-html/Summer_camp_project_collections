@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dagu"
+version = "0.1.0"
+description = "Malaria microscopy screening research prototype"
+requires-python = ">=3.10"
+# Dependencies are managed in requirements.txt so PyTorch can be installed from the right wheel index first.
+
+[tool.setuptools.packages.find]
+where = ["src"]

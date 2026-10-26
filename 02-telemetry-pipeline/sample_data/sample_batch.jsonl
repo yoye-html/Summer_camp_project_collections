@@ -1,0 +1,10 @@
+{"driver_id": "DRV-1008", "latitude": 9.046659, "longitude": 38.70736, "speed_kmh": 55.2, "status": "EN_ROUTE", "timestamp": "2026-08-12T22:13:09.840161"}
+{"driver_id": "DRV-1031", "latitude": 9.03543, "longitude": 38.819384, "speed_kmh": 58.4, "status": "EN_ROUTE", "timestamp": "2026-08-12T22:13:09.892908"}
+{"driver_id": "DRV-1037", "latitude": 8.954182, "longitude": 38.854673, "speed_kmh": 39.9, "status": "EN_ROUTE", "timestamp": "2026-08-12T22:13:10.036798"}
+{"driver_id": "DRV-1036", "latitude": 8.978861, "longitude": 38.795316, "speed_kmh": 34.4, "status": "ON_TRIP", "timestamp": "2026-08-12T22:13:10.117898"}
+{"driver_id": "DRV-1019", "latitude": 8.94194, "longitude": 38.74253, "speed_kmh": 30.4, "status": "EN_ROUTE", "timestamp": "2026-08-12T22:13:10.337545"}
+{"driver_id": "DRV-1019", "latitude": 8.963198, "longitude": 38.802362, "speed_kmh": 53.0, "status": "AVAILABLE", "timestamp": "2026-08-12T22:13:10.601734"}
+{"driver_id": "DRV-1028", "latitude": 8.964819, "longitude": 38.761244, "speed_kmh": 20.0, "status": "ON_TRIP", "timestamp": "2026-08-12T22:13:10.755713"}
+{"driver_id": "DRV-1037", "latitude": 8.966805, "longitude": 38.718207, "speed_kmh": 17.1, "status": "ON_TRIP", "timestamp": "2026-08-12T22:13:10.781742"}
+{"driver_id": "DRV-1028", "latitude": 9.043552, "longitude": 38.704925, "speed_kmh": 15.3, "status": "AVAILABLE", "timestamp": "2026-08-12T22:13:10.793992"}
+{"driver_id": "DRV-1031", "latitude": 9.035854, "longitude": 38.776446, "speed_kmh": 55.9, "status": "AVAILABLE", "timestamp": "2026-08-12T22:13:10.911718"}

@@ -1,0 +1,8 @@
+{
+  "best_val_auc": 0.9905913832367764,
+  "best_epoch": 8,
+  "img_size": 128,
+  "git_commit": "unknown",
+  "manifest_sha": "c09bd9a2a34466b2",
+  "amp": true
+}

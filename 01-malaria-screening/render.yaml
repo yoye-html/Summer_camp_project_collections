@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: laveran-ai
+    runtime: docker
+    plan: free
+    region: frankfurt
+    envVars:
+      - key: DAGU_API_KEY
+        generateValue: true
+

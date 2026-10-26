@@ -1,0 +1,13 @@
+data/
+.venv/
+mlruns/
+logs/
+reports/
+__pycache__/
+*.pyc
+.git/
+.env
+models/*.pt
+models/dagu_fp32.onnx
+models/*_prev.*
+
