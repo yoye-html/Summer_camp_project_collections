@@ -1,4 +1,4 @@
-# Laveran (Dagu) — Malaria Microscopy Screening System
+# Laveran — Malaria Microscopy Screening System
 ### *INSA Summer Camp (5th Batch) · Applied AI Engineering Capstone Project*
 
 [![Python](https://img.shields.io/badge/python-3.11%20%7C%203.12%20%7C%203.14-blue.svg)](https://www.python.org/)
