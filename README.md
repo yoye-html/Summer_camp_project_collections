@@ -1,4 +1,4 @@
-# Applied AI, Distributed Streaming & Frontier Systems Portfolio
+# Emerging Technologies, Distributed Streaming & Frontier Systems Portfolio
 ### *5th Batch · Advanced Engineering & Capstone Project Suite*
 **Information Network Security Administration (INSA) · Human Capital & Capacity Building**
 
